@@ -11,12 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="author" content="Abdul Moiz" />
     <meta name="description" content="PANA CLOUD website made by HTML AND CSS. part of an assignment" />
-
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Montserrat:wght@700&display=swap"
-            rel="stylesheet">
-    </head>
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -162,7 +160,6 @@
                 </div>
             </div>
         </section>
-
         <section class="ourPortfolio-section">
             <div class="heading-box">
                 <h2 class="secondary-heading">OUR<span class="special"> PORTFOLIO</span></h2>
@@ -179,20 +176,19 @@
             </div>
             <div class="img-container">
                 <div class="img-box">
-                    <img src="./assets/brain.webp" alt="img not found">
-                    <img src="./assets/horse.webp" alt="img not found">
-                    <img src="./assets/socialTrees.webp" alt="img not found">
-                    <img src="./assets/brain.webp" alt="img not found">
-                    <img src="./assets/horse.webp" alt="img not found">
-                    <img src="./assets/socialTrees.webp" alt="img not found">
-                    <img src="./assets/brain.webp" alt="img not found">
-                    <img src="./assets/horse.webp" alt="img not found">
-                    <img src="./assets/socialTrees.webp" alt="img not found">
-                    <img src="./assets/brain.webp" alt="img not found">
+                    <img src="./assets/brain.webp" alt="img not found" data-aos="flip-left">
+                    <img src="./assets/horse.webp" alt="img not found" data-aos="flip-right">
+                    <img src="./assets/socialTrees.webp" alt="img not found" data-aos="flip-left">
+                    <img src="./assets/brain.webp" alt="img not found" data-aos="flip-right">
+                    <img src="./assets/horse.webp" alt="img not found" data-aos="flip-left">
+                    <img src="./assets/socialTrees.webp" alt="img not found" data-aos="flip-right">
+                    <img src="./assets/brain.webp" alt="img not found" data-aos="flip-left">
+                    <img src="./assets/horse.webp" alt="img not found" data-aos="flip-right">
+                    <img src="./assets/socialTrees.webp" alt="img not found" data-aos="flip-left">
+                    <img src="./assets/brain.webp" alt="img not found" data-aos="flip-right">
                 </div>
             </div>
         </section>
-
         <section class="process-section">
             <div class="heading-box">
                 <h2 class="secondary-heading">OUR <span class="special"> PROCESS</span></h2>
@@ -420,6 +416,9 @@
             <div class="footer-copyright">&copy; pana cloud 2024</div>
         </footer>
     </main>
+    <script>
+        AOS.init({ offset: 200, duration: 1000 });
+    </script>
 </body>
 
 </html>
